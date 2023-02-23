@@ -35,3 +35,11 @@ let j= Symbol("I am a nice symbol");
 let k;
 console.log(e, f, g, h, i, j, k);
 console.log(typeof g)
+//objects
+const items = {
+    "Harry": true,
+    "Shubh": false,
+    "Lovish": 67,
+    "Rohan": undefined
+}
+console.log(items["Rohan"])
