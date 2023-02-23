@@ -33,3 +33,16 @@ let n = 6;
 console.log(m<n && m==5)
 console.log(m>n || m==5)
 console.log(!false)
+
+//Conditional Expressions
+//let p = prompt("Hey whats your age") // promt
+//iska typeof is string
+//p = Number.parseInt(p) // Converting string to int
+//if
+//if else
+//if else if
+//switch
+
+//Ternanry Operator
+let age = 10
+console.log('You can', (age<18? "not drive" :"drive"))
