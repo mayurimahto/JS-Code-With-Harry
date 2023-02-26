@@ -24,3 +24,22 @@ for( i in marks) {
 }
 
 //Array Methods
+let num = [1, 2, 3, 4]
+let b = num.toString()
+console.log(b, typeof b)
+
+let c = num.join("_")
+console.log(c, typeof c)
+
+num.pop()
+console.log(num) 
+
+num.push(5)
+console.log(num)
+
+let d = num.shift()
+console.log(d)
+console.log(num)
+
+let e = num.unshift(6)
+console.log(num)
