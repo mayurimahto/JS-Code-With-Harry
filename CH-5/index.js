@@ -77,3 +77,6 @@ console.log(num)
 
 num.splice(1, 2, 1011, 1022, 1033, 1044, 1055)
 console.log(num)
+
+let newnum = num.slice(3,5)
+console.log(newnum)
