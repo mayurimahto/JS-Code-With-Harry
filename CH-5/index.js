@@ -112,3 +112,28 @@ for( let i in arr){
 for(let i in arr){
     console.log(arr[i])
 }
+
+//Map Filter Reduce
+
+//Map method
+let array = [45, 25, 5]
+let array2 = array.map((value, index, array)=>{
+    console.log(value, index, array)
+    return value+10
+})
+console.log(array2)
+
+//Filter method
+let array3 = [45, 3, 15, 9, 10, 20]
+let array4 = array3.filter((i=>{
+    return i<10
+}))
+console.log(array4, array3)
+
+//Reduce method
+
+let array5 = [1, 2, 3, 3, 4, 5]
+let newarray5 = array5.reduce((h1, h2)=>{
+    return h1 + h2
+})
+console.log(newarray5)
