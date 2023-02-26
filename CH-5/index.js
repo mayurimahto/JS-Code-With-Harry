@@ -80,3 +80,35 @@ console.log(num)
 
 let newnum = num.slice(3,5)
 console.log(newnum)
+
+//For Loops in Arrays
+
+let num5 = [3, 54, 2, 88, 6, 72]
+
+for(let i=0; i<num5.length; i++){
+    console.log(num5[i])
+}
+
+//ForEach Loop
+num5.forEach((element)=> {
+console.log(element*element)
+})
+
+//Array.from
+let nameis = "Harry"
+let arr = Array.from(nameis)
+console.log(arr)
+
+//for...of
+for (let i of arr){
+    console.log(i)
+}
+
+//for...in
+for( let i in arr){
+    console.log(i)
+}
+
+for(let i in arr){
+    console.log(arr[i])
+}
