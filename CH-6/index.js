@@ -11,3 +11,10 @@ let obj = {a: 1, b:2, c:3}
 console.table(obj)
 console.warn("Hey please dont drink")
 console.info("Hey this is an imp info")
+
+console.log("log")
+console.info("info")
+console.warn("warn")
+console.error("err")
+console.assert("err" != false)
+console.assert("err" == false)
