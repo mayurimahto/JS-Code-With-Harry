@@ -36,3 +36,19 @@ while(i<5) {
     console.log(233)
 }
 console.timeEnd("whileLoop")
+
+//Alert, Confirm, Prompt
+
+//alert("hello your script works")
+alert("Enter the value of a!")
+let a = prompt("Enter here", "588")
+document.write(a)
+alert("You entered a of type " + (typeof a))
+let write = confirm("Do you want to write it to page")
+if(write){
+    document.write(a)
+}
+else{
+    document.write("Please allow me to write")
+}
+a = number.parseInt(a)
