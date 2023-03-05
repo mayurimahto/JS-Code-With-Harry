@@ -15,6 +15,16 @@ console.info("Hey this is an imp info")
 console.log("log")
 console.info("info")
 console.warn("warn")
-console.error("err")
-console.assert("err" != false)
-console.assert("err" == false)
+//console.error("err")
+//console.assert("err" != false)
+//console.assert("err" == false)
+
+console.time()
+console.time("a")
+console.timeEnd("starting this process")
+
+console.time("forLoop")
+for(let i=0;i<5;i++){
+    console.log(233)
+}
+console.time
